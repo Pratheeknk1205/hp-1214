@@ -1,0 +1,4 @@
+[webservers]
+44.204.31.71 ansible_user=ec2-user
+[dokerserver]
+44.206.230.155 ansible_user=ec2-user
