@@ -3,8 +3,8 @@ pipeline {
   environment {
     DOCKERHUB_CREDENTIALS = credentials('pratheeknk1205-dockerhub')
   }
-  /*stages {
-    stage('Build') {
+    stages {
+    /*stage('Build') {
       steps {
         sh 'docker build -t pratheeknk1205/pratheeknk1205'
       }
