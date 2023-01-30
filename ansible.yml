@@ -6,4 +6,4 @@
      command: docker pull thejika/thejika:1
    
    - name: run
-     command: docker run -p 5000:3000 thejika/thejika:1
+     command: docker run -p 5000:3000 pratheeknk1205/pratheeknk1205:1.0
