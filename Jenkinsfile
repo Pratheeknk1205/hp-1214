@@ -16,7 +16,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push  pratheeknk1205/pratheeknk1205:1.0 .'
+        sh 'docker push  pratheeknk1205/pratheeknk1205:1 .'
       }
     }
   
