@@ -6,7 +6,7 @@ pipeline {
     stages {
      stage('Build') {
       steps {
-        sh 'docker build -t pratheeknk1205/pratheeknk1205'
+        sh 'docker build -t pratheeknk1205/pratheeknk1205:1 .'
       }
     }
     stage('Login') {
